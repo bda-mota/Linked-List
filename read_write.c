@@ -43,7 +43,7 @@ void	deserialize(t_Node **root)
 	fclose(file);
 }
 
-int	main(void)
+/*int	main(void)
 {
 	t_Node	*head;
 	t_Node	*head2;
@@ -65,4 +65,4 @@ int	main(void)
 	deallocate(&head);
 	deallocate(&head2);
 	return (0);
-}
+}*/
