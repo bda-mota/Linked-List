@@ -28,7 +28,9 @@ void	insert_after(t_Node *node, int value);
 void	insert_sorted(t_Node **root, int value);
 void	remove_element(t_Node **root, int value);
 void	reverse(t_Node **root);
-int		has_loops(t_Node *root);
+int	has_loops(t_Node *root);
+void	deserialize(t_Node **root);
+void	serialize(t_Node *root);
 
 //DOUBLY LINKED LISTS
 typedef struct t_dNode
